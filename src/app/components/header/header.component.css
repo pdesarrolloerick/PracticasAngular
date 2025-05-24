@@ -1,0 +1,21 @@
+.header {
+    background-color: aquamarine;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    
+    gap: 40px;
+}
+
+.nav-bar > * {
+    list-style: none;
+}
